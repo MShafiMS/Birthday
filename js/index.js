@@ -286,15 +286,15 @@ function reveal() {
   loop();
 
   var w, h;
-  if (window.innerWidth >= 1000) {
-    w = 295;h = 185;
+  if (window.innerWidth >= 3300) {
+    w = 573;h = 360;
   } else
   {
     w = 255;h = 155;
   }
 
   var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "Untitled-1.jpg");
+  ifrm.setAttribute("src", "Unttled-1.jpg");
   //ifrm.style.width = `${w}px`;
   //ifrm.style.height = `${h}px`;
   ifrm.style.border = 'none';
